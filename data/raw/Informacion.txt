@@ -1,0 +1,49 @@
+TRABAJO PROGRAMACION ANALITICA
+
+Leer el documento donde se especifica el trabajo a realizar
+
+Este es el resumen del dataset
+
+* TIPO DE PROBLEMA: CLASIFICACION
+
+
+* DESCRIPCION:
+Pedro Perez creo su propia empresa de telefonía móvil. 
+Él quiere ser mejor que Apple, Samsung, etc.
+
+No sabe cómo estimar el precio de los móviles que crea su empresa. 
+En este mercado competitivo de teléfonos móviles no puedes simplemente asumir cosas.
+Para resolver este problema, recopila datos de ventas de teléfonos móviles de varias compañías.
+
+Pedro desea averiguar alguna relación entre las características de un teléfono móvil 
+(por ejemplo: - RAM, memoria interna, etc.) y su precio de venta. 
+Pero no es tan bueno en Machine Learning. Entonces él necesita tu ayuda para resolver este problema.
+
+En este problema, no tiene que predecir el precio real sino un rango de precios que indica qué tan alto es el precio.
+
+
+* DATOS:
+battery_power: Total energy a battery can store in one time measured in mAh
+blue: Has bluetooth or not
+clock_speed: speed at which microprocessor executes instructions
+dual_sim: Has dual sim support or not
+fc: Front Camera mega pixels
+four_g: Has 4G or not
+int_memory: Internal Memory in Gigabytes
+m_dep: Mobile Depth in cm
+mobile_wt: Weight of mobile phone
+n_cores: Number of cores of processor
+pc: Primary Camera mega pixels
+px_height: Pixel Resolution Height
+px_width: Pixel Resolution Width
+ram: Random Access Memory in Megabytes
+sc_h: Screen Height of mobile in cm
+sc_w: Screen Width of mobile in cm
+talk_time: longest time that a single battery charge will last when you are
+three_g: Has 3G or not
+touch_screen: Has touch screen or not
+wifi: Has wifi or not
+ 
+* DATOS DE SALIDA:
+
+ price_range: rango de precios se dan por las categorias [0,1,2,3]
