@@ -1,0 +1,2 @@
+Validación Cruzada
+ Media: 0.9870075801533966 Desviación Estandar: 0.002409729562986611
